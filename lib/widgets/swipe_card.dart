@@ -93,7 +93,7 @@ class SwipeCardState extends State<SwipeCard> {
         decoration: const BoxDecoration(
           color: Colors.white,
         ),
-        child: AssetEntityImage(widget.entity, fit: BoxFit.cover),
+        child: AssetEntityImage(widget.entity, fit: BoxFit.contain),
       ),
     );
   }

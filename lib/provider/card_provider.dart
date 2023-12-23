@@ -13,7 +13,7 @@ class CardProvider extends ChangeNotifier {
   bool _isDragging = false;
   Size _screenSize = Size.zero;
   double _angle = 0;
-  final int _perGetPhotoNum = 3;
+  final int _perGetPhotoNum = 200;
   int _photoStart = 0;
   int _totalPhotoCount = 0;
   int _totalPhotoGetCount = 0;
