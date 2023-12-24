@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
       create: (context) => CardProvider(),
       child: MaterialApp(
           title: 'Swipe Pix',
+          debugShowCheckedModeBanner: false,
           theme: ThemeData(
             useMaterial3: true,
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
